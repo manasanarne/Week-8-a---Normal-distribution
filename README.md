@@ -30,3 +30,6 @@ mydata<-rbind(mydata,sums)
 print(mydata,row.names=FALSE)
 result<-chisq.test(f,p=pr,rescale.p=TRUE)
 print(result)
+
+OUTPUT:-
+Result is X-squared = 0.010944, df = 4, p-value = 1
